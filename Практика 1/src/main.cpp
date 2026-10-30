@@ -13,6 +13,8 @@ signed main() {
     cout << R << " " << S << endl;
     auto C = max(R, S);
     cout << C << endl;
-    cin.get();
+#ifdef _WIN32
+    system("pause");
+#endif
     return 0;
 }
